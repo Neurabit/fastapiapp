@@ -4,4 +4,4 @@ router = APIRouter()
 
 @router.get("/")
 def read_root():
-    return {"message": "Hello from FastAPI on EC2!"}
+    return {"message": "Hello from FAPI!"}
